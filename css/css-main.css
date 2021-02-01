@@ -1,5 +1,12 @@
+#particle_background canvas{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
 body {
     font-family: 'Poppins', sans-serif !important;
+    background: url(canvas.js);
     background-color: #1D1E28;
     color: #fff;
     -webkit-font-smoothing: antialiased;
@@ -234,7 +241,7 @@ color: rgba(255, 255, 255, 0.46) !important
     text-align: center !important;
     padding: 5px 6px !important;
     color: #ecf2ff;
-    padding: 10px px !important
+    padding: 10px 31px !important
     
 }
 
